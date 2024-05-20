@@ -1,0 +1,142 @@
+.body {
+    background-color: bisque;
+    display:flex;
+    flex-direction: column;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1400px;
+}
+
+/*__________LEFTLIST_________*/
+
+.left-list {
+    background-color: rgb(12, 78, 148);
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    padding: 0 2%;
+}
+
+.picture {
+    margin: auto;   
+}
+
+.left_header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+/**/
+.name {
+    margin: 0;
+}
+.job {
+    
+}
+
+/**/
+.personal_info {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    color: rgb(12, 78, 148);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 14px;
+    background-color: white;
+    background-clip: border-box;
+    border-radius: 4px;
+    border: 10px rgb(5, 52, 101);
+}
+
+/**/
+.skills {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
+.h_a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.h_a_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h_a_content {
+    color:rgb(181, 183, 184);
+}
+
+/**/
+.h_i {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
+.l_c {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.link {
+    color: white;
+}
+.link:hover {
+    background-color: rgb(50, 126, 220);
+}
+
+
+/*__________RIGHTLIST_________*/
+
+.right-list {
+    background-color: white;
+    flex: 10;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.right_header {
+    color: #233A5F;
+}
+
+.line {
+    display: block;
+    background-color: #233A5F;
+    width: 50px;
+    height: 5px;
+}
+.about_content {
+    color: #878787;
+}
+.edu_block {
+    display: flex;
+    flex-direction: row;
+}
+.edu_header {
+    flex: 1;
+}
+.edu_block2 {
+    flex: 6;
+}
+.dot {
+    height: 16px;
+    width: 16px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    flex:
+}
